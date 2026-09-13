@@ -74,7 +74,7 @@ Open PowerShell or Terminal in `D:\Workspace\personal-website` and run:
 cd D:\Workspace\personal-website
 
 # Add your GitHub repository as remote origin (replace YOUR-USERNAME with your actual GitHub username):
-git remote add origin https://github.com/YOUR-USERNAME/personal-website.git
+git remote add origin git@github.com:mdmostafizurrahmantasfiq/website-.git
 
 # Ensure default branch is main:
 git branch -M main
@@ -91,7 +91,7 @@ git push -u origin main
    - **Branch**: Select `main` and folder `/ (root)`
 4. Click **Save**.
 5. Wait 1-2 minutes. GitHub will provide you with your live URL:
-   `https://YOUR-USERNAME.github.io/personal-website/`
+   `https://mdmostafizurrahmantasfiq.github.io/website-/`
 
 ---
 

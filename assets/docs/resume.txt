@@ -3,8 +3,8 @@ CURRICULUM VITAE / RESUME PLACEHOLDER
 ========================================
 Name: Software Engineer / Full Stack Developer
 Email: contact@example.com
-Website: https://yourusername.github.io/personal-website/
-GitHub: https://github.com/yourusername
+Website: https://mdmostafizurrahmantasfiq.github.io/website-/
+GitHub: https://github.com/mdmostafizurrahmantasfiq/website-
 
 SUMMARY:
 Results-driven Software Engineer with extensive experience in developing 
