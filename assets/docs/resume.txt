@@ -1,10 +1,13 @@
 ========================================
 CURRICULUM VITAE / RESUME PLACEHOLDER
 ========================================
-Name: Software Engineer / Full Stack Developer
-Email: contact@example.com
+Name: Md Mostafizur Rahman Tasfiq
+Phone / WhatsApp: 01634411404
 Website: https://mdmostafizurrahmantasfiq.github.io/website-/
 GitHub: https://github.com/mdmostafizurrahmantasfiq/website-
+LinkedIn: https://linkedin.com/in/mdmostafizurrahmantasfiq
+Facebook: https://www.facebook.com/mdmosatafizurrahmantasfiq/
+Instagram: https://www.instagram.com/_mrtasfiq_/?hl=en
 
 SUMMARY:
 Results-driven Software Engineer with extensive experience in developing 
