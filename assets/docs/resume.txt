@@ -1,0 +1,26 @@
+========================================
+CURRICULUM VITAE / RESUME PLACEHOLDER
+========================================
+Name: Software Engineer / Full Stack Developer
+Email: contact@example.com
+Website: https://yourusername.github.io/personal-website/
+GitHub: https://github.com/yourusername
+
+SUMMARY:
+Results-driven Software Engineer with extensive experience in developing 
+responsive web applications, scalable backend microservices, and modern user interfaces.
+
+TECHNICAL SKILLS:
+- Languages: JavaScript (ES6+), TypeScript, Python, HTML5, CSS3, SQL
+- Frontend: React, Next.js, Tailwind CSS, Responsive Web Design
+- Backend: Node.js, Express, Fastify, RESTful APIs, WebSockets
+- Database & Cloud: PostgreSQL, MongoDB, Redis, Docker, AWS, Git/GitHub
+
+EXPERIENCE:
+- Senior Full Stack Developer (2023 - Present)
+- Frontend Software Engineer (2021 - 2023)
+
+EDUCATION:
+- B.Sc. in Computer Science and Engineering (2017 - 2021)
+========================================
+Replace this file with your actual resume (PDF or DOCX) in assets/docs/
