@@ -1,0 +1,6 @@
+# robots.txt for Googlebot and search engines
+User-agent: *
+Allow: /
+
+# Sitemap URL
+Sitemap: https://mdmostafizurrahmantasfiq.github.io/website-/sitemap.xml
