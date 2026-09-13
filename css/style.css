@@ -337,9 +337,11 @@ img {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1.4rem;
+    font-size: 0.95rem;
     font-weight: 800;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .logo-icon {
