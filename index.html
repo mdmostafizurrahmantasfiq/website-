@@ -1,37 +1,66 @@
 ﻿<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Md Mostafizur Rahman Tasfiq — Entrepreneur. Building impactful ventures, projects, and services.">
-    <meta name="keywords" content="Md Mostafizur Rahman Tasfiq, Entrepreneur, Tasfiq, Business, Ventures, Services">
+    <meta name="description" content="Md Mostafizur Rahman Tasfiq — Entrepreneur based in Feni, Bangladesh. Focusing on projects, services, and pharmaceutical business ventures.">
+    <meta name="keywords" content="Md Mostafizur Rahman Tasfiq, Entrepreneur, Pharma Business, Feni, Bangladesh, Business Ventures, Services">
     <meta name="author" content="Md Mostafizur Rahman Tasfiq">
     <title>Md Mostafizur Rahman Tasfiq | Entrepreneur</title>
     <link rel="canonical" href="https://mdmostafizurrahmantasfiq.github.io/website-/">
     <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="google0c1a73099a9bc0ac">
+    
+    <!-- Open Graph / Meta -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mdmostafizurrahmantasfiq.github.io/website-/">
     <meta property="og:title" content="Md Mostafizur Rahman Tasfiq | Entrepreneur">
-    <meta property="og:description" content="Entrepreneur building impactful ventures and services.">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Md Mostafizur Rahman Tasfiq","url":"https://mdmostafizurrahmantasfiq.github.io/website-/","telephone":"+8801634411404","jobTitle":"Entrepreneur","sameAs":["https://www.facebook.com/mdmosatafizurrahmantasfiq/","https://www.instagram.com/_mrtasfiq_/?hl=en","https://linkedin.com/in/mdmostafizurrahmantasfiq"]}</script>
+    <meta property="og:description" content="Entrepreneur focusing on projects, services, and pharmaceutical business ventures based in Feni, Bangladesh.">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Md Mostafizur Rahman Tasfiq",
+        "url": "https://mdmostafizurrahmantasfiq.github.io/website-/",
+        "jobTitle": "Entrepreneur",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Feni",
+            "addressCountry": "Bangladesh"
+        },
+        "sameAs": [
+            "https://www.facebook.com/mdmosatafizurrahmantasfiq/",
+            "https://www.instagram.com/_mrtasfiq_/?hl=en",
+            "https://linkedin.com/in/mdmostafizurrahmantasfiq"
+        ]
+    }
+    </script>
+
+    <!-- Google Fonts & Font Awesome Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
+    <!-- Subtle Ambient Green Background Blobs -->
     <div class="bg-ambient" aria-hidden="true">
         <div class="ambient-blob blob-1"></div>
         <div class="ambient-blob blob-2"></div>
         <div class="ambient-blob blob-3"></div>
     </div>
+
+    <!-- Header Navigation -->
     <header class="header">
         <div class="container nav-container">
             <a href="#hero" class="logo" aria-label="Home">
                 <span class="logo-icon"><i class="fa-solid fa-briefcase"></i></span>
-                <span>MD MOSTAFIZUR RAHMAN<span class="gradient-text"> TASFIQ</span></span>
+                <span class="logo-text">MD MOSTAFIZUR RAHMAN<span class="gradient-text"> TASFIQ</span></span>
             </a>
             <nav>
                 <ul class="nav-menu" id="nav-menu">
@@ -42,163 +71,305 @@
                 </ul>
             </nav>
             <div class="nav-actions">
-                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme"><i class="fa-solid fa-moon"></i></button>
-                <button class="hamburger" id="hamburger" aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
+                <div class="header-socials">
+                    <a href="https://www.facebook.com/mdmosatafizurrahmantasfiq/" target="_blank" rel="noopener noreferrer" class="header-social-link facebook" aria-label="Facebook" title="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_mrtasfiq_/?hl=en" target="_blank" rel="noopener noreferrer" class="header-social-link instagram" aria-label="Instagram" title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/mdmostafizurrahmantasfiq" target="_blank" rel="noopener noreferrer" class="header-social-link linkedin" aria-label="LinkedIn" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="btn-header-wa" title="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
         </div>
     </header>
+
     <main>
+        <!-- Hero Section (Centered Profile Photo & Typography) -->
         <section class="hero" id="hero">
-            <div class="container hero-grid">
-                <div class="hero-content">
-                    <div class="hero-badge"><span class="pulse-dot"></span><span>Open to new ventures &amp; partnerships</span></div>
-                    <h1 class="hero-title">Hi, I'm<br><span class="gradient-text">Md Mostafizur<br>Rahman Tasfiq</span></h1>
-                    <div class="hero-designation"><i class="fa-solid fa-briefcase"></i>&nbsp; Entrepreneur</div>
-                    <p class="hero-subtitle">I build ventures, drive projects, and deliver services that create real-world impact. Passionate about turning bold ideas into meaningful, lasting businesses.</p>
-                    <div class="hero-actions">
-                        <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp Me</span></a>
-                        <a href="#contact" class="btn btn-outline"><span>Get In Touch</span><i class="fa-solid fa-arrow-down"></i></a>
-                    </div>
-                    <div class="hero-socials">
-                        <a href="https://www.facebook.com/mdmosatafizurrahmantasfiq/" target="_blank" rel="noopener noreferrer" class="social-link facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/_mrtasfiq_/?hl=en" target="_blank" rel="noopener noreferrer" class="social-link instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://linkedin.com/in/mdmostafizurrahmantasfiq" target="_blank" rel="noopener noreferrer" class="social-link linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="social-link whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <div class="container hero-center">
+                <div class="hero-photo-container">
+                    <div class="hero-photo-frame">
+                        <img src="assets/images/profile.jpg" alt="Md Mostafizur Rahman Tasfiq" class="hero-photo-img">
                     </div>
                 </div>
-                <div class="hero-visual">
-                    <div class="avatar-wrapper glass-card">
-                        <div class="avatar-glow"></div>
-                        <div class="profile-photo-container">
-                            <img class="profile-photo-img" src="assets/images/profile.jpg" alt="Md Mostafizur Rahman Tasfiq">
-                        </div>
-                        <div class="avatar-info"><h4>Md Mostafizur Rahman Tasfiq</h4><p>Entrepreneur</p></div>
-                        <div class="floating-badge badge-1"><i class="fa-solid fa-lightbulb" style="color:#f7c948;"></i><span>Visionary Projects</span></div>
-                        <div class="floating-badge badge-2"><i class="fa-solid fa-rocket" style="color:#a78bfa;"></i><span>Business Ventures</span></div>
-                    </div>
+
+                <h1 class="hero-name">Md Mostafizur Rahman Tasfiq</h1>
+
+                <div class="hero-title-badge">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span>Entrepreneur &bull; Pharma Business Focus</span>
+                </div>
+
+                <p class="hero-bio">
+                    Dedicated to launching impactful ventures, delivering client-centric services, and pioneering opportunities across the pharmaceutical and healthcare business sectors.
+                </p>
+
+                <div class="hero-location-pill">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Feni, Bangladesh &#127463;&#127465;</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Get In Touch</span>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://www.facebook.com/mdmosatafizurrahmantasfiq/" target="_blank" rel="noopener noreferrer" class="social-circle facebook" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_mrtasfiq_/?hl=en" target="_blank" rel="noopener noreferrer" class="social-circle instagram" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/mdmostafizurrahmantasfiq" target="_blank" rel="noopener noreferrer" class="social-circle linkedin" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="social-circle whatsapp" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
                 </div>
             </div>
         </section>
+
+        <!-- About / Bio Section -->
         <section class="section" id="about">
             <div class="container">
-                <div class="section-header">
-                    <span class="section-badge">About Me</span>
-                    <h2 class="section-title">Driven by Vision, <span class="gradient-text">Built on Action</span></h2>
-                    <p class="section-description">A brief glimpse into who I am, what fuels my ambition, and what I stand for.</p>
+                <div class="sec-header">
+                    <span class="sec-badge">About Me</span>
+                    <h2 class="sec-title">Visionary Entrepreneurship &amp; <span class="gradient-text">Pharma Business</span></h2>
+                    <p class="sec-desc">Driven by strategic innovation, high-standard services, and meaningful healthcare initiatives.</p>
                 </div>
                 <div class="about-grid">
                     <div class="about-text">
-                        <h3>Building impactful ventures from vision to reality.</h3>
-                        <p>I am an entrepreneur with a relentless passion for creating projects that deliver real value. I focus on identifying opportunities, building solutions, and driving ventures that make a meaningful impact — from concept through to execution and sustainable growth.</p>
-                        <p>Whether launching a new service, managing business operations, or collaborating with teams to develop winning strategies, my priority is always delivering exceptional results with integrity, creativity, and a tireless drive for excellence.</p>
+                        <h3>Transforming strategic concepts into high-impact ventures.</h3>
+                        <p>
+                            I am an entrepreneur with an unwavering focus on developing sustainable, high-value projects and services. My core vision revolves around identifying market gaps, executing tailored business solutions, and driving long-term enterprise growth.
+                        </p>
+                        <p>
+                            With a strong and proactive interest in the <strong>Pharmaceutical Business</strong>, I am actively exploring opportunities within healthcare distribution, pharma-centric supply networks, and medical innovations. My goal is to build ventures that not only achieve commercial success but also generate a positive, lasting contribution to society.
+                        </p>
                     </div>
-                    <div class="stats-grid">
-                        <div class="stat-card glass-card"><div class="stat-number">1+</div><div class="stat-title">Years in Business</div></div>
-                        <div class="stat-card glass-card"><div class="stat-number">∞</div><div class="stat-title">Ideas in Motion</div></div>
-                        <div class="stat-card glass-card"><div class="stat-number">100%</div><div class="stat-title">Commitment</div></div>
-                        <div class="stat-card glass-card"><div class="stat-number">BD</div><div class="stat-title">Based in Bangladesh</div></div>
+                    <div class="highlights-grid">
+                        <div class="highlight-card glass-card">
+                            <div class="highlight-icon"><i class="fa-solid fa-capsules"></i></div>
+                            <div class="highlight-title">Pharma Business</div>
+                            <div class="highlight-sub">Core Interest &amp; Ventures</div>
+                        </div>
+                        <div class="highlight-card glass-card">
+                            <div class="highlight-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                            <div class="highlight-title">Projects &amp; Services</div>
+                            <div class="highlight-sub">Execution Focused</div>
+                        </div>
+                        <div class="highlight-card glass-card">
+                            <div class="highlight-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="highlight-title">Feni, BD &#127463;&#127465;</div>
+                            <div class="highlight-sub">Connected Globally</div>
+                        </div>
+                        <div class="highlight-card glass-card">
+                            <div class="highlight-icon"><i class="fa-solid fa-handshake"></i></div>
+                            <div class="highlight-title">Strategic Growth</div>
+                            <div class="highlight-sub">Long-Term Partnerships</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Journey Section -->
         <section class="section" id="journey">
             <div class="container">
-                <div class="section-header">
-                    <span class="section-badge">Journey</span>
-                    <h2 class="section-title">Education &amp; <span class="gradient-text">Experience</span></h2>
-                    <p class="section-description">My academic background and professional milestones.</p>
+                <div class="sec-header">
+                    <span class="sec-badge">Journey</span>
+                    <h2 class="sec-title">Experience &amp; <span class="gradient-text">Education</span></h2>
+                    <p class="sec-desc">A timeline of professional leadership and academic foundations.</p>
                 </div>
                 <div class="timeline">
+                    <!-- Phenom Consultant (Former Role ended September 2026) -->
                     <div class="timeline-item">
-                        <div class="timeline-dot"></div>
+                        <div class="timeline-dot"><i class="fa-solid fa-building"></i></div>
                         <div class="timeline-card glass-card">
                             <div class="timeline-meta">
-                                <span class="timeline-date">2026 — Present</span>
-                                <span class="timeline-org"><i class="fa-solid fa-building"></i> Phenom Consultant</span>
+                                <span class="timeline-date">2026 &ndash; September 2026</span>
+                                <span class="timeline-tag">Former Role</span>
                             </div>
                             <h3 class="timeline-role">Executive</h3>
-                            <p class="timeline-desc">Leading and managing key business operations, client relations, and strategic initiatives at Phenom Consultant. Driving growth through smart decision-making, team collaboration, and a results-oriented approach.</p>
+                            <div class="timeline-org">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>Phenom Consultant</span>
+                            </div>
+                            <p class="timeline-desc">
+                                Managed key business operations, client engagements, and strategic initiatives at Phenom Consultant, successfully contributing to organizational milestones before completing the tenure in September 2026.
+                            </p>
                         </div>
                     </div>
+
+                    <!-- Milestone College, Dhaka -->
                     <div class="timeline-item">
-                        <div class="timeline-dot"></div>
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
                         <div class="timeline-card glass-card">
                             <div class="timeline-meta">
                                 <span class="timeline-date">2025</span>
-                                <span class="timeline-org"><i class="fa-solid fa-graduation-cap"></i> Milestone College, Dhaka</span>
+                                <span class="timeline-tag">Higher Secondary</span>
                             </div>
                             <h3 class="timeline-role">Higher Secondary Certificate (HSC)</h3>
-                            <p class="timeline-desc">Completed Higher Secondary education at Milestone College, Dhaka — building a strong academic foundation and developing leadership and entrepreneurial thinking.</p>
+                            <div class="timeline-org">
+                                <i class="fa-solid fa-building-columns"></i>
+                                <span>Milestone College, Dhaka</span>
+                            </div>
+                            <p class="timeline-desc">
+                                Completed Higher Secondary Certificate from Milestone College, Dhaka, developing disciplined leadership, analytical thinking, and entrepreneurial drive.
+                            </p>
                         </div>
                     </div>
+
+                    <!-- Daganbhuiya Academy, Feni -->
                     <div class="timeline-item">
-                        <div class="timeline-dot"></div>
+                        <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
                         <div class="timeline-card glass-card">
                             <div class="timeline-meta">
                                 <span class="timeline-date">2023</span>
-                                <span class="timeline-org"><i class="fa-solid fa-school"></i> Daganbhuiya Academy, Feni</span>
+                                <span class="timeline-tag">Secondary</span>
                             </div>
                             <h3 class="timeline-role">Secondary School Certificate (SSC)</h3>
-                            <p class="timeline-desc">Completed Secondary education at Daganbhuiya Academy, Feni — where curiosity, discipline, and the drive to succeed took root.</p>
+                            <div class="timeline-org">
+                                <i class="fa-solid fa-school"></i>
+                                <span>Daganbhuiya Academy, Feni</span>
+                            </div>
+                            <p class="timeline-desc">
+                                Completed Secondary School Certificate from Daganbhuiya Academy, Feni, building foundational academic excellence and curiosity for business ventures.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Contact Section -->
         <section class="section" id="contact">
             <div class="container">
-                <div class="section-header">
-                    <span class="section-badge">Get In Touch</span>
-                    <h2 class="section-title">Let's Build Something <span class="gradient-text">Extraordinary</span></h2>
-                    <p class="section-description">Have a venture idea, project, or opportunity? Feel free to reach out anytime.</p>
+                <div class="sec-header">
+                    <span class="sec-badge">Get In Touch</span>
+                    <h2 class="sec-title">Let's Connect &amp; <span class="gradient-text">Collaborate</span></h2>
+                    <p class="sec-desc">Inquiries, pharmaceutical partnerships, or business venture discussions are always welcome.</p>
                 </div>
                 <div class="contact-grid">
-                    <div>
-                        <div class="contact-info-list">
-                            <div class="contact-info-card glass-card">
-                                <div class="contact-icon wa-icon"><i class="fa-brands fa-whatsapp"></i></div>
-                                <div class="contact-details"><h4>WhatsApp</h4><p><a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer">01634411404 — Click to Chat</a></p></div>
+                    <div class="contact-cards-col">
+                        <!-- Location Card -->
+                        <div class="contact-info-card glass-card">
+                            <div class="contact-card-icon">
+                                <i class="fa-solid fa-location-dot"></i>
                             </div>
-                            <div class="contact-info-card glass-card">
-                                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
-                                <div class="contact-details"><h4>Location</h4><p>Dhaka, Bangladesh &bull; Available Worldwide</p></div>
+                            <div class="contact-card-details">
+                                <h4>Location</h4>
+                                <p>Feni, Bangladesh &#127463;&#127465;</p>
                             </div>
                         </div>
-                        <div style="display:flex;gap:0.65rem;margin-top:0.5rem;">
-                            <a href="https://www.facebook.com/mdmosatafizurrahmantasfiq/" target="_blank" rel="noopener noreferrer" class="social-link facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/_mrtasfiq_/?hl=en" target="_blank" rel="noopener noreferrer" class="social-link instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://linkedin.com/in/mdmostafizurrahmantasfiq" target="_blank" rel="noopener noreferrer" class="social-link linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="social-link whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+                        <!-- WhatsApp Card (Raw number hidden, clean button provided) -->
+                        <div class="contact-info-card glass-card">
+                            <div class="contact-card-icon wa">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-card-details">
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="btn-chat-wa">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <span>Chat on WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="contact-socials-wrapper">
+                            <a href="https://www.facebook.com/mdmosatafizurrahmantasfiq/" target="_blank" rel="noopener noreferrer" class="social-circle facebook" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/_mrtasfiq_/?hl=en" target="_blank" rel="noopener noreferrer" class="social-circle instagram" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/mdmostafizurrahmantasfiq" target="_blank" rel="noopener noreferrer" class="social-circle linkedin" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="social-circle whatsapp" aria-label="WhatsApp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
                         </div>
                     </div>
-                    <div>
-                        <form id="contact-form" class="contact-form glass-card">
-                            <div class="form-row">
-                                <div class="form-group"><label for="name" class="form-label">Your Name</label><input type="text" id="name" class="form-control" placeholder="John Doe" required></div>
-                                <div class="form-group"><label for="email" class="form-label">Your Email</label><input type="email" id="email" class="form-control" placeholder="john@example.com" required></div>
+
+                    <!-- Direct Message Form -->
+                    <form id="contact-form" class="contact-form glass-card">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
                             </div>
-                            <div class="form-group"><label for="subject" class="form-label">Subject</label><input type="text" id="subject" class="form-control" placeholder="Business Inquiry / Partnership" required></div>
-                            <div class="form-group"><label for="message" class="form-label">Message</label><textarea id="message" class="form-control" rows="5" placeholder="Hi, I'd like to discuss a venture..." required></textarea></div>
-                            <button type="submit" class="btn-primary"><span>Send Message</span><i class="fa-solid fa-paper-plane"></i></button>
-                            <div id="form-status" class="form-status" role="alert"></div>
-                        </form>
-                    </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Business Inquiry / Pharma Partnership" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Hi, I would like to discuss..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <span>Send Message</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <div id="form-status" class="form-status" role="alert"></div>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
     <footer class="footer">
-        <div class="container footer-content">
-            <p class="footer-text">&copy; <span id="current-year"></span> <strong>Md Mostafizur Rahman Tasfiq</strong>. All rights reserved.</p>
+        <div class="container footer-inner">
+            <p class="footer-copy">&copy; <span id="current-year"></span> <strong>Md Mostafizur Rahman Tasfiq</strong>. All rights reserved.</p>
             <div class="footer-socials">
-                <a href="https://www.facebook.com/mdmosatafizurrahmantasfiq/" target="_blank" rel="noopener noreferrer" class="social-link facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/_mrtasfiq_/?hl=en" target="_blank" rel="noopener noreferrer" class="social-link instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://linkedin.com/in/mdmostafizurrahmantasfiq" target="_blank" rel="noopener noreferrer" class="social-link linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="social-link whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/mdmosatafizurrahmantasfiq/" target="_blank" rel="noopener noreferrer" class="social-circle facebook" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/_mrtasfiq_/?hl=en" target="_blank" rel="noopener noreferrer" class="social-circle instagram" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://linkedin.com/in/mdmostafizurrahmantasfiq" target="_blank" rel="noopener noreferrer" class="social-circle linkedin" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://wa.me/8801634411404" target="_blank" rel="noopener noreferrer" class="social-circle whatsapp" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
             </div>
-            <button id="back-to-top" class="back-to-top" aria-label="Back to Top"><i class="fa-solid fa-chevron-up"></i></button>
+            <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
         </div>
     </footer>
+
     <script src="js/main.js"></script>
 </body>
 </html>
